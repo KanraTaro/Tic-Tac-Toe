@@ -1,0 +1,72 @@
+<html></html>
+<head>
+<title> Simple HTML5 Tic-Tac-Toe! - KanraTaro</title>
+<script src="script.js" type="text/javascript"></script>
+<script src="ai.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+<header><h1>Simple Tic-Tac-Toe</h1><h2> A small project developed by Anthony Rosa</h2></header>
+    <div class="divider"></div>
+
+    <section id="scoreboard">
+    
+    <h2>Scoreboard</h2>    
+    <div class="divholder">
+    <div class="scores"><h3>Your Score:</h3><p id="yourScore">0</p></div>
+    <div class="scores"><h3>Ai Score:</h3><p id=theirScore>0</p></div>    
+    <div class="scores"><h3>Ties:</h3><p id=tieScore>0</p></div>    
+    </div>
+        
+    </section>
+    
+    <section id="gameboardholder">
+    
+        <div id="gameboard">
+        
+        <div class="rows">
+        <a href="#" id="1" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="2" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="3" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        <div class="rows">
+        <a href="#" id="4" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="5" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="6" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        <div class="rows">
+        <a href="#" id="7" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="8" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="9" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        </div>
+        
+    </section>
+    <section id="gamesettings">
+        
+        <div class="divholder">
+        
+        <div class="settingchoices">
+            
+            <h2> Choose One</h2>
+            <a href="#" onclick="myChoice(id)" id="o" class="choice"></a>
+            
+            <a href="#" onclick="myChoice(id)" id="x" class="choice"></a>
+            
+        </div>
+        <div class="settingchoices">
+            
+            <h2> Difficulty</h2>
+            <a href="#" onclick="setAI(id)" id="random" class="choice">Random</a>
+            <a href="#" onclick="setAI(id)" id="normal" class="choice">Normal</a>
+        </div>
+        </div>
+        
+    </section>
+
+<footer></footer> 
+</body>

@@ -1,0 +1,68 @@
+<html></html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <header><h1>Simple Tic Tac Toe!</h1></header>
+    
+    
+    <section class="pieceHolder">
+
+    <h2>Score Board</h2>
+        
+    <div class="scores"><h3>Your Score:</h3><p id="yourScore">0</p></div>
+        
+    <div class="scores"><h3>AI Score:</h3><p id=theirScore>0</p></div>
+        
+    <div class="scores"><h3>Ties:</h3><p id=tieScore>0</p></div>
+    
+    </section>
+    
+    
+    <section id="gameholder">
+    
+        <div id="gameboard">
+        
+        <div class="rows">
+        <a href="#" id="1" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="2" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="3" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        <div class="rows">
+        <a href="#" id="4" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="5" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="6" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        <div class="rows">
+        <a href="#" id="7" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="8" onclick="mySelection(id);" class="squares"></a>
+        <a href="#" id="9" onclick="mySelection(id);" class="squares"></a>
+        </div>
+            
+        </div>
+        
+    </section>
+
+
+</body>
+<footer>
+    
+<section id="pieceChoice"> 
+        
+        <div class="pieceHolder">
+        <h2> Are you X or O?</h2>
+        <a href="#" onclick="myChoice(id)" id="o" class="choice">O</a>
+        <a href="#" onclick="myChoice(id)" id="x" class="choice">X</a>
+        </div>
+    
+        <a href="#" onclick="reset()" id="reset" class="choice">Reset?</a>
+        
+    </section>
+    
+
+</footer>

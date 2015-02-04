@@ -1,0 +1,115 @@
+body{height: 100%; width: 100%; margin:0px; padding:0px; font-family:sans-serif; background-color: #ecf0f1;}
+
+header{
+    height:125px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    padding-top:50px;
+    padding-bottom:20px;
+    background-color: #e74c3c;
+    text-align:center;
+    box-shadow: 0px 1px 2px;
+}
+
+.divider{ 
+    height:30px;
+    background: url(images/tease-arrow-down.png) center 0px no-repeat;
+}
+
+h1{font-size:70px; font-family: sans-serif; margin:0px; padding:0px; color: #ecf0f1;}
+h2{font-family: sans-serif; margin:0px; padding:0px;}
+
+
+#scoreboard{
+    height:125px;
+    width:100%;
+    padding-top:15px;
+    text-align:center;
+    background-color: #ecf0f1;
+}
+
+.divholder{
+    width:450px;
+    margin:auto;
+}
+
+.scores{
+    width:150px;
+    float:left;
+}
+
+#gameboardholder{
+    height:440px;
+    padding-top:5px;
+    padding-bottom:25px;
+    width:100%;
+    background-color: #ecf0f1;
+
+}
+
+#gameboard {
+    border:1px solid black;
+    width:450px;
+    height:450px;
+    margin:auto;
+    display:block;
+}
+
+.rows{
+    width:450px;   
+    display:block;
+    height:150px;
+}
+
+a{
+    border:2px solid black;
+    width:146px;
+    height:146px;
+    display:block;
+    float:left;
+    text-decoration: none;
+}
+
+a:hover{
+    display:block;
+    background-color:red;
+    opacity:0.3;
+    
+}
+
+a:visited{ 
+    border:1px solid black;
+    text-decoration: none;
+}
+
+#gamesettings{
+    height:90px;
+    width:100%;
+    padding-top:10px;
+    background-color: #ecf0f1;
+    text-align:center;
+
+}
+
+.settingchoices{
+    height:75px;
+    width:225px;
+    float:left;
+}
+
+.choice{
+    height:35px;
+    width:50px;
+    margin-top:5px;
+    padding-top:15px;
+    font-size: 20px;
+    font-weight:bold;
+    color: black;
+    margin-left:40px;
+    border:none;
+}
+
+
+#x{background-image: url(images/x-icon.png)}
+#o{background-image: url(images/o-icon.png)}
